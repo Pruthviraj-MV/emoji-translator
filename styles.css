@@ -16,8 +16,8 @@ body{
     background-image: url("captain-of-the-pirates.svg");
     background-repeat: no-repeat;
     width: 500px;
-    background-position-x: center;
-    background-position-y: 4.5rem; 
+    background-position: center;
+    
     background-size: 490px;
 }
 
