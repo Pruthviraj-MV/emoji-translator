@@ -9,7 +9,6 @@
 body{
     background-color: black;
     font-family: 'Rock Salt', cursive;
-    /* font-size: large; */
     margin: auto;
     text-align: center;
     color:#8105d8;
@@ -17,8 +16,10 @@ body{
     background-repeat: no-repeat;
     min-width: 600px;
     background-position: right;
-    background-size:contain;
+    background-size: contain;
+ 
 }
+
 
 
 .header-style{
