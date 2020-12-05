@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 :root{
     --primary: #8105d8;
@@ -8,17 +8,16 @@
 
 body{
     background-color: black;
-    font-family: 'Sansita Swashed', cursive;
-    font-size: large;
+    font-family: 'Rock Salt', cursive;
+    /* font-size: large; */
     margin: auto;
     text-align: center;
     color:#8105d8;
     background-image: url("captain-of-the-pirates.svg");
     background-repeat: no-repeat;
-    width: 500px;
+    min-width: 600px;
     background-position: right;
-    
-    background-size: 490px;
+    background-size:contain;
 }
 
 
@@ -78,17 +77,15 @@ textarea {
 #pirate-btn {
     
     background-color: var(--primary);
-    display: block;
-
     color: white;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     border: var(--primary);
     font-size: medium;
     border-radius: 0.5rem;
     padding: 0.5rem;
     margin-bottom: 5rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 
@@ -109,12 +106,11 @@ textarea {
 
 
 .footer-style{
-    max-width: 600px;
     border-style: outset;
-    text-align: center;
     border-top-left-radius: 2rem;
-    margin-top: 2rem;
-
+    margin: auto;
+    margin-top: 5rem;
+    max-width: 600px;
 }
 
 .footer-style a{
